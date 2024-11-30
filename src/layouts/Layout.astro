@@ -1,22 +1,60 @@
+---
+import "@fontsource/pushster";
+import "@fontsource/mountains-of-christmas";
+---
+
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+      initial-scale="1"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon.png"
+    />
+    <title>Calendario de Navidad 2024 - Mata de Alcántara</title>
+  </head>
+  <body class="antialiased md:py-6 relative">
+    <slot />
+    <img
+      class="fixed bottom-2 left-0 h-20 md:h-52 lg:h-80 drop-shadow-xl"
+      src="/cascanueces.png"
+      alt="Cascanueces"
+    />
+    <img
+      class="fixed top-0 right-0 w-20 md:w-40 lg:w-60 lg:right-10 z-50"
+      src="/bola-verde.png"
+      alt="bola verde"
+    />
+    <img
+      class="fixed bottom-2 right-6 z-50 w-10 md:w-20 lg:w-40 lg:right-20"
+      src="./escudo_de_mata_de_alcantara.webp"
+      alt="Escudo de la Mata de Alcántara"
+    />
+  </body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+<style is:global>
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Pushster", system-ui;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Mountains of Christmas", sans-serif;
+    font-weight: bold;
+  }
 </style>

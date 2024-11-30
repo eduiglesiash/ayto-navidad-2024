@@ -1,11 +1,61 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import DateTime from "../components/dateTime.astro";
+import Activity from "../components/activity.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <main class="bg-christmas bg-repeat-y bg-contain w-full md:w-10/12 py-6 shadow-xl">
+    <!-- <span class="bg-white absolute top-0 left-0 w-full h-full opacity-30"></span> -->
+    <div class="relative mb-14">
+      <h1
+        class="text-5xl md:text-6xl text-center text-balance text-christmas-pastel relative z-10 pt-6 pb-12 md:pb-18 lg:pb-24 bg-christmas-green">
+        Navidad 2024 <br />Mata de Alcántara
+        <img
+          class="absolute bottom-0 -translate-x-1/2 left-1/2"
+          src="./santa-sale.png"
+          alt="Santa Sale"
+        />
+      </h1>
+    </div>
+
+    <section class="px-4">
+      <DateTime
+        day="Lunes 1"
+        isLeft="true">
+        <Activity />
+        <Activity />
+        <Activity />
+        <Activity />
+      </DateTime>
+      <DateTime day="Miércoles 22">
+        <Activity />
+        <Activity />
+        <Activity />
+        <Activity />
+      </DateTime>
+      <DateTime day="Miércoles 22">
+        <Activity />
+        <Activity />
+        <Activity />
+        <Activity />
+      </DateTime>
+      <DateTime day="Miércoles 22">
+        <Activity />
+        <Activity />
+        <Activity />
+        <Activity />
+      </DateTime>
+      <DateTime day="1">
+        <Activity />
+        <Activity />
+        <Activity />
+        <Activity />
+      </DateTime>
+    </section>
+  </main>
 </Layout>
+<!-- #A85545 color para el texto -->
