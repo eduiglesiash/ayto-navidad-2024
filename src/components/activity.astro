@@ -1,34 +1,54 @@
+---
+const { icon, nameActivity, organization, time, place, link } = Astro.props;
+---
+
 <div class="bg-white p-4 rounded-lg shadow-lg relative z-0">
   <div class="flex flex-col gap-4 md:flex-row justify-between items-center mb-4">
     <div class="text-center md:text-left">
-      <h2 class="text-4xl text-christmas-regular">Nombre de la actividad</h2>
-      <p class="text-lg md:text-xl text-slate-600">Quien organiza la actividad</p>
+      <h2 class="text-4xl text-christmas-regular text-balance">{nameActivity}</h2>
+      <p class="text-lg md:text-xl text-slate-600">{organization}</p>
     </div>
     <div class="flex flex-col items-center justify-center">
-      <span class="text-4xl">18:00</span>
-      <span class="text-xl">Plaza de España</span>
+      <span class="text-4xl">{time}</span>
+      <span class="text-xl text-balance text-center">{place}</span>
     </div>
   </div>
-  <a
-    class="block text-center text-christmas-red"
-    href="#"
-    target="_new"
-    >Cartel de la actividad</a
-  >
-  <img
-    class="absolute left-0 w-12 bottom-0 md:bottom-0 md:left-0"
-    src="/bola-cristal.png"
-    alt="Bola de cristal"
-  />
+  {
+    place && (
+      <a
+        class="block text-center text-christmas-red"
+        href={link}
+        target="_new">
+        Cartel de la actividad
+      </a>
+    )
+  }
 
-  <img
-    class="absolute left-0 w-16 bottom-10 md:bottom-0 md:left-14"
-    src="/reno.png"
-    alt="Reno"
-  />
-  <img
-    class="absolute left-0 w-12 bottom-24 md:bottom-0 md:left-28"
-    src="/santa-claus.png"
-    alt="Santa Claus"
-  />
+  {
+    icon === "cristal" && (
+      <img
+        class="absolute right-0 w-12 bottom-0 md:bottom-0 md:right-0"
+        src="/bola-cristal.png"
+        alt="Bola de cristal"
+      />
+    )
+  }
+  {
+    icon === "claus" && (
+      <img
+        class="absolute right-0 w-16 bottom-10 md:bottom-0 md:-rigth-14"
+        src="/santa-claus.png"
+        alt="Santa Claus"
+      />
+    )
+  }
+  {
+    icon === "reno" && (
+      <img
+        class="absolute right-0 w-12 bottom-24 md:bottom-0 md:-rigth-28"
+        src="/reno.png"
+        alt="Reno"
+      />
+    )
+  }
 </div>
