@@ -6,7 +6,7 @@ import activities from "../../public/data/actividades.json";
 ---
 
 <Layout>
-  <main class="bg-christmas bg-repeat-y bg-contain w-full md:w-10/12 py-6 shadow-xl">
+  <main class="bg-christmas bg-repeat-y bg-contain bg-center w-full min-h-screen py-6 shadow-xl">
     <!-- <span class="bg-white absolute top-0 left-0 w-full h-full opacity-30"></span> -->
     <div class="relative mb-14">
       <h1
@@ -19,7 +19,6 @@ import activities from "../../public/data/actividades.json";
         />
       </h1>
     </div>
-
     <section class="px-4">
       {
         activities.map(({ day, isLeft, activities }) => (

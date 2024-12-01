@@ -1,0 +1,49 @@
+<div class="links">
+  <ul>
+    <li class="social-share facebook">Share on Facebook</li>
+    <li class="social-share twitter">Share on Twitter</li>
+    <li class="social-share linkedin">Share on LinkedIn</li>
+  </ul>
+</div>
+
+<script>
+  const socialWindow = (url) => {
+    const left = (screen.width - 570) / 2;
+    const top = (screen.height - 570) / 2;
+    // const params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+    const params = "right=center,top=center,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0";
+    window.open(url, "NewWindow", params);
+  };
+
+  const setShareLinks = () => {
+    const pageUrl = encodeURIComponent(document.URL);
+    const metaPropertyDescription = document.querySelector("meta[property='og:description']");
+    const tweet = encodeURIComponent(metaPropertyDescription.getAttribute("content"));
+
+    const shareFacebook = document.querySelector(".social-share.facebook");
+    const shareTwitter = document.querySelector(".social-share.twitter");
+    const shareLinkedin = document.querySelector(".social-share.linkedin");
+
+    shareFacebook?.addEventListener("click", () => {
+      console.log("Facebook");
+      const url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+      socialWindow(url);
+    });
+
+    shareTwitter?.addEventListener("click", () => {
+      console.log("Twitter");
+      const text = "🎄 Quiero comparir contigo la Navidad de mi pueblo Mata de Alcántara #navidadenlamata2024";
+      const url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + encodeURIComponent(text);
+
+      socialWindow(url);
+    });
+
+    shareLinkedin?.addEventListener("click", () => {
+      console.log("Linkedin");
+      const url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
+      socialWindow(url);
+    });
+  };
+
+  setShareLinks();
+</script>

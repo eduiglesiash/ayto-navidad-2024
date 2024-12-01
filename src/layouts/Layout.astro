@@ -12,28 +12,67 @@ import "@fontsource/mountains-of-christmas";
       content="width=device-width"
       initial-scale="1"
     />
+    <meta
+      property="og:url"
+      content="https://navidad-2024.matadealcantara.com"
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <meta
+      property="og:title"
+      content="Calendario de Navidad 2024 en Mata de Alcántara - Cáceres"
+    />
+    <meta
+      property="og:description"
+      content="Calendario de actividades y eventos para Navidad 2024 🎄. Ven a disfrutar con nosotros esta Navidad en 🏡 Mata de Alcántara, Cáceres."
+    />
+    <meta
+      property="og:image"
+      content="https://navidad-2024.matadealcantara.com/og-image.png"
+    />
     <link
       rel="icon"
       type="image/png"
       href="/favicon.png"
     />
-    <title>Calendario de Navidad 2024 - Mata de Alcántara</title>
+    <!-- Matomo -->
+    <script>
+      var _paq = (window._paq = window._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "https://matomo.consoleblog.es/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "6"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.async = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+    <title>Calendario de Navidad 2024 - Mata de Alcántara - Cáceres</title>
   </head>
-  <body class="antialiased md:py-6 relative">
+  <body class="antialiased relative">
     <slot />
     <img
-      class="fixed bottom-2 left-0 h-20 md:h-52 lg:h-80 drop-shadow-xl"
+      class="fixed bottom-2 left-0 h-20 md:h-52 lg:h-60 drop-shadow-xl"
       src="/cascanueces.png"
       alt="Cascanueces"
     />
     <img
-      class="fixed top-0 right-0 w-20 md:w-40 lg:w-60 lg:right-10 z-50"
+      class="fixed top-0 right-0 w-20 md:w-40 lg:w-50 lg:right-10 z-50"
       src="/bola-verde.png"
       alt="bola verde"
     />
     <img
       class="fixed bottom-2 right-6 z-50 w-10 md:w-20 lg:w-40 lg:right-20"
-      src="./escudo_de_mata_de_alcantara.webp"
+      src="./escudo_navidad.png"
       alt="Escudo de la Mata de Alcántara"
     />
   </body>
