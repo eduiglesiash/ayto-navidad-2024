@@ -1,43 +1,15 @@
 [
   {
-    "day": "Lunes 1",
+    "day": "Lunes 9",
     "isLeft": true,
     "activities": [
       {
         "icon": "cristal",
         "nameActivity": "1º Concurso de postales navideñas",
         "organization": "Ayto. Mata de Alcántara",
-        "time": "8:00",
-        "place": null,
-        "link": "https://navidad2024.matadealcantara.com/carteles/1-concurso-de-postales"
-      }
-    ]
-  },
-  {
-    "day": "Sábado 21",
-    "isLeft": true,
-    "activities": [
-      {
-        "icon": "claus",
-        "nameActivity": "Cine",
-        "organization": "Ayto. Mata de Alcántara",
-        "time": "19:00",
-        "place": "Casa de Cultura'",
-        "link": "https://navidad2024.matadealcantara.com/carteles/cine"
-      }
-    ]
-  },
-  {
-    "day": "Domingo 22",
-    "isLeft": false,
-    "activities": [
-      {
-        "icon": "reno",
-        "nameActivity": "2º Bellotada Matiega",
-        "organization": "Asoc. El monte de La Mata",
-        "time": "10:00",
-        "place": "Chiringuito de 'La Laguna'",
-        "link": "https://navidad2024.matadealcantara.com/carteles/bellotada-matiega"
+        "time": "",
+        "place": "Hasta el 20 de diciembre",
+        "link": "/carteles/concurso-de-postales-2024.pdf"
       }
     ]
   },
@@ -47,11 +19,11 @@
     "activities": [
       {
         "icon": "reno",
-        "nameActivity": "Concierto de Navidad",
-        "organization": "Asoc. Una vida en el pueblo",
-        "time": "10:00",
+        "nameActivity": "3º Concierto de Navidad",
+        "organization": "Asoc. Una vida en el pueblo y Ayto Mata de Alcántara",
+        "time": "19:00",
         "place": "Iglesia de Nuestra Señora de gracia",
-        "link": "https://navidad2024.matadealcantara.com/carteles/concierto-navidad"
+        "link": ""
       }
     ]
   },
@@ -62,24 +34,10 @@
       {
         "icon": "claus",
         "nameActivity": "2º San Silvestre 'Matiega'",
-        "organization": "Asoc. El monte de La Mata",
-        "time": "10:00",
-        "place": "Chiringuito de 'La Laguna'",
-        "link": "https://navidad2024.matadealcantara.com/carteles/bellotada-matiega"
-      }
-    ]
-  },
-  {
-    "day": "Domingo 5",
-    "isLeft": true,
-    "activities": [
-      {
-        "icon": "cristal",
-        "nameActivity": "Cabalgata de los Reyes Magos",
         "organization": "Ayto. Mata de Alcántara",
-        "time": "17:00",
-        "place": "Parking Albergue 'La Fontanina'",
-        "link": "https://navidad2024.matadealcantara.com/carteles/cabalagata-reyes"
+        "time": "10:00",
+        "place": "Plaza de España",
+        "link": ""
       }
     ]
   }
