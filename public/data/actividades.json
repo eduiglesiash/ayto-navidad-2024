@@ -14,6 +14,48 @@
     ]
   },
   {
+    "day": "Sábado 14",
+    "isLeft": false,
+    "activities": [
+      {
+        "icon": "claus",
+        "nameActivity": "Reunión merienda de Adviento",
+        "organization": "Asoc. Alegre esperanza",
+        "time": "18:00",
+        "place": "Casa Parroquial",
+        "link": "/carteles/reunion-merienda-adviento.pdf"
+      }
+    ]
+  },
+  {
+    "day": "Sábado 21",
+    "isLeft": true,
+    "activities": [
+      {
+        "icon": "reno",
+        "nameActivity": "Cine Navideño",
+        "organization": "Ayto. Mata de Alcántara",
+        "time": "19:00",
+        "place": "Casa de Cultura",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "day": "Domingo 22",
+    "isLeft": false,
+    "activities": [
+      {
+        "icon": "claus",
+        "nameActivity": "2º Día de la Bellotada Matiega",
+        "organization": "Asoc. El Monte de La Mata",
+        "time": "10:00",
+        "place": "Merendero Charca La Laguna",
+        "link": ""
+      }
+    ]
+  },
+  {
     "day": "Domingo 29",
     "isLeft": true,
     "activities": [
@@ -27,6 +69,7 @@
       }
     ]
   },
+
   {
     "day": "Martes 31",
     "isLeft": false,
