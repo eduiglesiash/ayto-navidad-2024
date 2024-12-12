@@ -33,11 +33,11 @@
     "activities": [
       {
         "icon": "reno",
-        "nameActivity": "Cine Navideño",
-        "organization": "Ayto. Mata de Alcántara",
+        "nameActivity": "Cine - La Navidad en sus manos",
+        "organization": "Dipución de Cáceres - Ayto. Mata de Alcántara",
         "time": "19:00",
         "place": "Casa de Cultura",
-        "link": ""
+        "link": "carteles/Cine_Mata_Alcantara.pdf"
       }
     ]
   },
