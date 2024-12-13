@@ -20,7 +20,7 @@
       {
         "icon": "claus",
         "nameActivity": "Reunión merienda de Adviento",
-        "organization": "Asoc. Alegre esperanza",
+        "organization": "Asoc. Alegre Esperanza",
         "time": "18:00",
         "place": "Casa Parroquial",
         "link": "/carteles/reunion-merienda-adviento.pdf"
@@ -52,6 +52,62 @@
         "time": "10:00",
         "place": "Merendero Charca La Laguna",
         "link": "https://www.facebook.com/photo?fbid=8781312191936991&set=a.134029726665324"
+      }
+    ]
+  },
+  {
+    "day": "Lunes 23",
+    "isLeft": true,
+    "activities": [
+      {
+        "icon": "reno",
+        "nameActivity": "Exposición: 'La españa vaciada'",
+        "organization": "",
+        "time": "Toda la semana",
+        "place": "Casa de Cultura",
+        "link": "Agcex"
+      }
+    ]
+  },
+  {
+    "day": "Lunes 23",
+    "isLeft": false,
+    "activities": [
+      {
+        "icon": "claus",
+        "nameActivity": "Fomento a la lectura - Infantil - Taller infantil",
+        "organization": "",
+        "time": "11:00 a 13:00",
+        "place": "El rincón de la sabiduría",
+        "link": "Agcex"
+      }
+    ]
+  },
+  {
+    "day": "Jueves 26",
+    "isLeft": true,
+    "activities": [
+      {
+        "icon": "reno",
+        "nameActivity": "Fomento a la lectura - Jóvenes y Adultos - Taller de ilustración",
+        "organization": "",
+        "time": "11:00 a 13:00",
+        "place": "El rincón de la sabiduría",
+        "link": "Agcex"
+      }
+    ]
+  },
+  {
+    "day": "Viernes 27",
+    "isLeft": false,
+    "activities": [
+      {
+        "icon": "cristal",
+        "nameActivity": "Fomento a la lectura - Adultos y jóvenes - Taller de Escritura creativa",
+        "organization": "",
+        "time": "11:00 a 13:00",
+        "place": "El rincón de la sabiduría",
+        "link": "Agcex"
       }
     ]
   },
