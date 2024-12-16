@@ -32,6 +32,20 @@
     "isLeft": true,
     "activities": [
       {
+        "icon": "cristal",
+        "nameActivity": "Belén viviente",
+        "organization": "Asoc. Alegre Esperanza",
+        "time": "12:30",
+        "place": "Andenes - Iglesia Santa María de Gracia",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "day": "Sábado 21",
+    "isLeft": true,
+    "activities": [
+      {
         "icon": "reno",
         "nameActivity": "Cine - La Navidad en sus manos",
         "organization": "Dipución de Cáceres - Ayto. Mata de Alcántara",
@@ -62,10 +76,10 @@
       {
         "icon": "reno",
         "nameActivity": "Exposición: 'La españa vaciada'",
-        "organization": "",
+        "organization": "Agcex",
         "time": "Toda la semana",
         "place": "Casa de Cultura",
-        "link": "Agcex"
+        "link": ""
       }
     ]
   },
@@ -76,10 +90,10 @@
       {
         "icon": "claus",
         "nameActivity": "Fomento a la lectura - Infantil - Taller infantil",
-        "organization": "",
+        "organization": "Agcex",
         "time": "11:00 a 13:00",
         "place": "El rincón de la sabiduría",
-        "link": "Agcex"
+        "link": ""
       }
     ]
   },
@@ -90,10 +104,10 @@
       {
         "icon": "reno",
         "nameActivity": "Fomento a la lectura - Jóvenes y Adultos - Taller de ilustración",
-        "organization": "",
+        "organization": "Agcex",
         "time": "11:00 a 13:00",
         "place": "El rincón de la sabiduría",
-        "link": "Agcex"
+        "link": ""
       }
     ]
   },
@@ -104,10 +118,10 @@
       {
         "icon": "cristal",
         "nameActivity": "Fomento a la lectura - Adultos y jóvenes - Taller de Escritura creativa",
-        "organization": "",
+        "organization": "Agcex",
         "time": "11:00 a 13:00",
         "place": "El rincón de la sabiduría",
-        "link": "Agcex"
+        "link": ""
       }
     ]
   },
