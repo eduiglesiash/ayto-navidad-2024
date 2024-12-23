@@ -89,7 +89,7 @@
     "activities": [
       {
         "icon": "claus",
-        "nameActivity": "Fomento a la lectura - Infantil - Taller infantil",
+        "nameActivity": "Fomento a la lectura - Jóvenes y Adultos - Taller de ilustración",
         "organization": "Agcex",
         "time": "11:00 a 13:00",
         "place": "El rincón de la sabiduría",
@@ -103,7 +103,7 @@
     "activities": [
       {
         "icon": "reno",
-        "nameActivity": "Fomento a la lectura - Jóvenes y Adultos - Taller de ilustración",
+        "nameActivity": "Fomento a la lectura - Adultos y jóvenes - Taller de Escritura creativa",
         "organization": "Agcex",
         "time": "11:00 a 13:00",
         "place": "El rincón de la sabiduría",
@@ -117,7 +117,7 @@
     "activities": [
       {
         "icon": "cristal",
-        "nameActivity": "Fomento a la lectura - Adultos y jóvenes - Taller de Escritura creativa",
+        "nameActivity": "Fomento a la lectura - Infantil - Taller infantil",
         "organization": "Agcex",
         "time": "11:00 a 13:00",
         "place": "El rincón de la sabiduría",
