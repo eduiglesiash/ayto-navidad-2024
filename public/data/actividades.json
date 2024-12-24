@@ -131,10 +131,24 @@
     "activities": [
       {
         "icon": "reno",
+        "nameActivity": "4º Mercado Navideño - Mata de Alcántara",
+        "organization": "Asoc. Una vida en el pueblo y Ayto Mata de Alcántara",
+        "time": "17:00",
+        "place": "Iglesia de Santa María de Gracia",
+        "link": "carteles/cartel-mercado-navideno-2024.pdf"
+      }
+    ]
+  },
+  {
+    "day": "Domingo 29",
+    "isLeft": true,
+    "activities": [
+      {
+        "icon": "reno",
         "nameActivity": "3º Concierto de Navidad",
         "organization": "Asoc. Una vida en el pueblo y Ayto Mata de Alcántara",
         "time": "19:00",
-        "place": "Iglesia de Nuestra Señora de gracia",
+        "place": "Iglesia de Santa María de Gracia",
         "link": ""
       }
     ]
